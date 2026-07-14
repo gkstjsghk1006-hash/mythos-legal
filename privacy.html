@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Mythos Block</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; background:#0A1525; color:#DCE4F0; font:400 15px/1.75 "Nunito","Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+  .wrap { max-width:760px; margin:0 auto; padding:40px 22px 80px; }
+  h1 { font-family:"Cinzel",serif; font-weight:900; font-size:26px; letter-spacing:2px; margin:6px 0 2px;
+    background:linear-gradient(180deg,#FFF4D6,#F59E0B); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .sub { color:#94A3B8; font-size:13px; margin-bottom:26px; }
+  h2 { color:#FDE68A; font-size:17px; margin:34px 0 8px; border-bottom:1px solid rgba(245,158,11,.25); padding-bottom:8px; }
+  p, li { color:#C7D2E4; }
+  table { width:100%; border-collapse:collapse; font-size:13.5px; margin:10px 0; }
+  th, td { border:1px solid rgba(148,163,184,.25); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:rgba(28,46,74,.6); color:#FDE68A; font-weight:800; }
+  .langbar { display:flex; gap:8px; margin-bottom:20px; }
+  .langbar button { background:rgba(28,46,74,.7); color:#DCE4F0; border:1px solid rgba(245,158,11,.3);
+    border-radius:20px; padding:7px 18px; font:800 13px "Nunito"; cursor:pointer; }
+  .langbar button.on { background:linear-gradient(180deg,#F59E0B,#B45309); color:#1A1206; border-color:transparent; }
+  .note { background:rgba(28,46,74,.5); border:1px solid rgba(245,158,11,.25); border-radius:12px; padding:12px 16px; font-size:13.5px; }
+  a { color:#FDE68A; }
+  [data-lang] { display:none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="langbar">
+    <button id="btnKo" onclick="setL('ko')">한국어</button>
+    <button id="btnEn" onclick="setL('en')">English</button>
+  </div>
+
+  <!-- ═══════════════ 한국어 ═══════════════ -->
+  <section data-lang="ko">
+    <h1>개인정보처리방침</h1>
+    <div class="sub">Mythos Block · 시행일: 2026년 7월 12일</div>
+
+    <p>Mythos Block(이하 "본 게임")은 이용자의 개인정보를 소중히 여기며, 관련 법령을 준수합니다.
+    본 게임은 <b>회원가입이 없으며</b>, 이름·이메일·전화번호 등 실명 정보를 수집하지 않습니다.</p>
+
+    <h2>1. 수집하는 정보</h2>
+    <table>
+      <tr><th>항목</th><th>내용</th><th>저장 위치</th></tr>
+      <tr><td>닉네임</td><td>최초 실행 시 자동 생성되는 임의 닉네임(예: GoldenPhoenix12). 이용자가 직접 변경할 수 있으며, 실명 사용을 요구하지 않습니다.</td><td>기기 내부 + 랭킹 서버</td></tr>
+      <tr><td>게임 기록</td><td>점수, 스테이지 진행도, 획득 캐릭터, 코인, 설정(언어·사운드 등)</td><td>기기 내부(브라우저 저장소)</td></tr>
+      <tr><td>랭킹 데이터</td><td>글로벌 랭킹 표시용 닉네임·점수·평판·대표 캐릭터·칭호</td><td>랭킹 서버(Supabase)</td></tr>
+    </table>
+    <p class="note">게임 진행 데이터는 기본적으로 <b>이용자의 기기 안에만</b> 저장됩니다. 서버로 전송되는 것은
+    글로벌 랭킹에 필요한 최소한의 정보(닉네임·점수류)뿐입니다.</p>
+
+    <h2>2. 이용 목적</h2>
+    <p>수집한 정보는 다음 목적에만 사용됩니다: 게임 진행 상태 저장 및 복원, 글로벌 랭킹(리더보드) 운영,
+    서비스 품질 개선. 마케팅 목적의 수집·판매는 하지 않습니다.</p>
+
+    <h2>3. 광고</h2>
+    <p>본 게임은 Google AdMob을 통해 광고를 표시할 수 있습니다. 이 경우 Google이
+    광고 제공을 위해 쿠키 또는 광고 식별자를 사용할 수 있으며, 이는 Google의
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">개인정보처리방침</a>을 따릅니다.
+    이용자는 기기 설정에서 맞춤 광고를 제한할 수 있습니다.</p>
+
+    <h2>4. 제3자 제공 및 처리 위탁</h2>
+    <table>
+      <tr><th>수탁자</th><th>목적</th><th>항목</th></tr>
+      <tr><td>Supabase Inc.</td><td>글로벌 랭킹 데이터 저장</td><td>닉네임, 점수, 평판, 대표 캐릭터, 칭호</td></tr>
+      <tr><td>Google (AdMob)</td><td>광고 제공(광고 표시 시)</td><td>쿠키/광고 식별자(Google이 직접 처리)</td></tr>
+    </table>
+    <p>위 외의 제3자에게 정보를 제공하거나 판매하지 않습니다.</p>
+
+    <h2>5. 보유 및 파기</h2>
+    <p>기기 내부 데이터는 이용자가 앱(브라우저) 데이터를 삭제하면 즉시 파기됩니다.
+    랭킹 서버의 데이터는 서비스 운영 기간 동안 보관되며, 삭제를 원하시면 아래 연락처로
+    닉네임을 알려주시면 지체 없이 삭제합니다.</p>
+
+    <h2>6. 아동의 개인정보</h2>
+    <p>본 게임은 만 14세 이상 이용자를 대상으로 하며(대한민국 개인정보보호법 기준), 만 14세 미만 아동의 개인정보를 고의로 수집하지 않습니다. 해외 이용자의 경우 현지 법령이 정한 연령(예: 미국 13세) 기준을 따릅니다.</p>
+
+    <h2>7. 이용자의 권리</h2>
+    <p>이용자는 언제든지 자신의 랭킹 데이터에 대한 열람·정정·삭제를 요청할 수 있습니다.
+    요청은 아래 연락처로 사용 중인 닉네임과 함께 보내주세요.</p>
+
+    <h2>8. 문의</h2>
+    <p>개인정보 관련 문의: <a href="mailto:gkstjsghk1006@gmail.com">gkstjsghk1006@gmail.com</a></p>
+
+    <h2>9. 고지 의무</h2>
+    <p>본 방침이 변경되는 경우 게임 내 공지 또는 본 페이지를 통해 사전 고지합니다.</p>
+  </section>
+
+  <!-- ═══════════════ English ═══════════════ -->
+  <section data-lang="en">
+    <h1>Privacy Policy</h1>
+    <div class="sub">Mythos Block · Effective: July 12, 2026</div>
+
+    <p>Mythos Block ("the Game") respects your privacy. The Game has <b>no account system</b> and does not
+    collect real names, email addresses, phone numbers, or any directly identifying information.</p>
+
+    <h2>1. Information We Collect</h2>
+    <table>
+      <tr><th>Item</th><th>Description</th><th>Stored</th></tr>
+      <tr><td>Nickname</td><td>A random nickname is auto-generated on first launch (e.g., GoldenPhoenix12). You may change it; real names are never required.</td><td>On device + leaderboard server</td></tr>
+      <tr><td>Game data</td><td>Scores, stage progress, unlocked characters, coins, preferences (language, sound)</td><td>On device only (browser storage)</td></tr>
+      <tr><td>Leaderboard data</td><td>Nickname, scores, rating, chosen avatar and title, for global rankings</td><td>Leaderboard server (Supabase)</td></tr>
+    </table>
+    <p class="note">Game progress is stored <b>on your device</b>. Only the minimal data needed for global
+    rankings (nickname and score-type data) is sent to our server.</p>
+
+    <h2>2. How We Use It</h2>
+    <p>Collected data is used only to: save and restore your game progress, operate the global leaderboard,
+    and improve the service. We do not collect or sell data for marketing purposes.</p>
+
+    <h2>3. Advertising</h2>
+    <p>The Game may display ads via Google AdMob. Google may use cookies or advertising
+    identifiers to serve ads, governed by
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.
+    You can limit personalized ads in your device settings.</p>
+
+    <h2>4. Third Parties</h2>
+    <table>
+      <tr><th>Processor</th><th>Purpose</th><th>Data</th></tr>
+      <tr><td>Supabase Inc.</td><td>Leaderboard data hosting</td><td>Nickname, scores, rating, avatar, title</td></tr>
+      <tr><td>Google (AdMob)</td><td>Ad serving (when ads are shown)</td><td>Cookies / ad identifiers (processed by Google)</td></tr>
+    </table>
+    <p>We do not share or sell your data to any other third party.</p>
+
+    <h2>5. Retention &amp; Deletion</h2>
+    <p>On-device data is deleted immediately when you clear the app (browser) data. Leaderboard data is kept
+    while the service operates; to have it deleted, contact us with your nickname and we will remove it promptly.</p>
+
+    <h2>6. Children</h2>
+    <p>The Game is intended for users aged 13 and over. We do not knowingly collect personal information
+    from children under 13.</p>
+
+    <h2>7. Your Rights</h2>
+    <p>You may request access to, correction of, or deletion of your leaderboard data at any time by
+    contacting us with your nickname.</p>
+
+    <h2>8. Contact</h2>
+    <p>Privacy inquiries: <a href="mailto:gkstjsghk1006@gmail.com">gkstjsghk1006@gmail.com</a></p>
+
+    <h2>9. Changes</h2>
+    <p>If this policy changes, we will provide notice in the Game or on this page in advance.</p>
+  </section>
+</div>
+<script>
+  function setL(l){
+    document.querySelectorAll('[data-lang]').forEach(s=>s.style.display=s.getAttribute('data-lang')===l?'block':'none');
+    document.getElementById('btnKo').classList.toggle('on', l==='ko');
+    document.getElementById('btnEn').classList.toggle('on', l==='en');
+    document.documentElement.lang=l;
+    try{ localStorage.setItem('mythos_policy_lang', l); }catch(e){}
+  }
+  var saved=null; try{ saved=localStorage.getItem('mythos_policy_lang'); }catch(e){}
+  setL(saved || ((navigator.language||'en').slice(0,2)==='ko'?'ko':'en'));
+</script>
+</body>
+</html>
