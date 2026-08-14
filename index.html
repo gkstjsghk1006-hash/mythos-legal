@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARETE Games — Greek Mythology Casual Games</title>
+<meta name="description" content="ARETE is an indie game studio creating casual mobile games inspired by Greek mythology. Maker of Mythos Block.">
+<style>
+  :root{ --bg:#0b1320; --panel:#16273F; --line:rgba(245,158,11,.22);
+         --gold:#F59E0B; --gold2:#FDE68A; --ink:#E8EEF7; --sub:#93A7C4; --sub2:#6E82A0; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:radial-gradient(1100px 520px at 50% -8%,#1b2d4a 0%,var(--bg) 62%);
+       color:var(--ink);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;line-height:1.65}
+  .wrap{max-width:880px;margin:0 auto;padding:0 20px 72px}
+  header{text-align:center;padding:44px 0 8px}
+  .banner{width:100%;max-width:840px;border-radius:16px;border:1px solid var(--line);display:block;margin:0 auto}
+  h1{font-size:32px;font-weight:800;margin:34px 0 6px;
+     background:linear-gradient(90deg,var(--gold2),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .lede{color:var(--sub);font-size:16px;max-width:620px;margin:0 auto}
+  h2{font-size:20px;color:#FBBF24;margin:0 0 14px;display:flex;align-items:center;gap:10px}
+  h2::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+  section{background:linear-gradient(180deg,#1b3050,var(--panel));border:1px solid var(--line);
+          border-radius:16px;padding:26px 28px;margin-top:26px}
+  .game-title{font-size:22px;font-weight:800;color:var(--gold2);margin-bottom:4px}
+  .game-sub{color:var(--sub);font-size:14px;margin-bottom:16px}
+  p{color:#CBD5E1;margin-bottom:12px}
+  ul{list-style:none;margin:14px 0}
+  li{color:#CBD5E1;padding:5px 0 5px 20px;position:relative}
+  li::before{content:"▪";color:var(--gold);position:absolute;left:2px}
+  .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}
+  .shots img{width:100%;border-radius:10px;border:1px solid rgba(255,255,255,.09)}
+  a{color:#7FB4FF;text-decoration:none;word-break:break-all}
+  a:hover{text-decoration:underline}
+  .kv{display:flex;gap:10px;padding:7px 0;flex-wrap:wrap}
+  .kv b{color:var(--sub2);font-weight:600;min-width:110px}
+  .ko{margin-top:26px;padding-top:22px;border-top:1px solid rgba(255,255,255,.09);color:var(--sub)}
+  .ko h3{color:#CBD5E1;font-size:15px;margin-bottom:10px}
+  footer{text-align:center;color:var(--sub2);font-size:13px;margin-top:38px}
+  @media(max-width:640px){ .shots{grid-template-columns:1fr} h1{font-size:26px} section{padding:20px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img class="banner" src="feature_graphic_en.png" alt="Mythos Block — Greek Mythology Block Puzzle">
+    <h1>ARETE Games</h1>
+    <p class="lede">An indie game studio creating casual mobile games inspired by Greek mythology.</p>
+  </header>
+
+  <section>
+    <h2>Our Game</h2>
+    <div class="game-title">Mythos Block</div>
+    <div class="game-sub">Greek Mythology Block Puzzle · Free · Android</div>
+    <p>A relaxing 8×8 block puzzle set in the world of Greek myth. Drop blocks, clear lines,
+       and awaken the gods of Olympus — no timers, no pressure.</p>
+    <ul>
+      <li>11 sagas and 276 stages, from the Trojan War to Primordial Chaos</li>
+      <li>80 heroes, gods, and monsters to collect, each with original artwork</li>
+      <li>Signature hazards for every saga — petrify, spreading fire, hydra regrowth, and more</li>
+      <li>5 bonus mini-games included</li>
+      <li>Works offline · 8 languages supported</li>
+    </ul>
+    <div class="shots">
+      <img src="shot1.png" alt="Classic block puzzle gameplay">
+      <img src="shot2.png" alt="Trojan War saga map">
+      <img src="shot3.png" alt="Character collection">
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="kv"><b>Email</b><a href="mailto:gkstjsghk1006@gmail.com">gkstjsghk1006@gmail.com</a></div>
+    <div class="kv"><b>Studio</b><span>ARETE · Seoul, Republic of Korea</span></div>
+  </section>
+
+  <section>
+    <h2>Legal</h2>
+    <div class="kv"><b>Privacy Policy</b><a href="privacy.html">privacy.html</a></div>
+    <div class="kv"><b>Terms of Service</b><a href="terms.html">terms.html</a></div>
+
+    <div class="ko">
+      <h3>한국어 안내</h3>
+      <p>ARETE는 그리스 신화를 테마로 한 캐주얼 모바일 게임을 만드는 인디 게임 스튜디오입니다.</p>
+      <p><b style="color:var(--gold2)">미토스 블록</b> — 그리스 신화 블록 퍼즐.
+         11개 사가, 276개 스테이지, 80명의 영웅과 신 수집. 무료이며 오프라인에서도 즐길 수 있습니다.</p>
+      <p>문의: gkstjsghk1006@gmail.com</p>
+    </div>
+  </section>
+
+  <footer>© 2026 ARETE. All rights reserved.</footer>
+</div>
+</body>
+</html>
